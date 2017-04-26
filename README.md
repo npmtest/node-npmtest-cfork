@@ -1,6 +1,6 @@
 # npmtest-cfork
 
-#### test coverage for  [cfork (v1.6.0)](https://github.com/node-modules/cfork)  [![npm package](https://img.shields.io/npm/v/npmtest-cfork.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cfork) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cfork.svg)](https://travis-ci.org/npmtest/node-npmtest-cfork)
+#### basic test coverage for  [cfork (v1.6.0)](https://github.com/node-modules/cfork)  [![npm package](https://img.shields.io/npm/v/npmtest-cfork.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cfork) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cfork.svg)](https://travis-ci.org/npmtest/node-npmtest-cfork)
 
 #### cluster fork and restart easy way
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cfork/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cfork/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cfork/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cfork/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cfork/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cfork/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cfork/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cfork/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cfork/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cfork/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cfork/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cfork/build/coverage.html/index.html)
 
@@ -125,7 +125,8 @@
         "lint": "eslint index.js test",
         "test": "npm run clean && npm run lint && npm run cover && istanbul report json lcov html text"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
